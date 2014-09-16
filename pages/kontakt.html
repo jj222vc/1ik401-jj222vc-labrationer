@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="sv">
-<meta charset="utf-8"/> 
-
-    
-
 
 <head>
     <title>Johan Jaenssons kontaktsida</title>
+    <meta charset="utf-8"/> 
 </head>
 
 
@@ -25,24 +22,24 @@
         
         
     </ul>
-    
+    <!-- Formuläret börjar, methoden post väljs !-->
     <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"> 
     <fieldset style="width: 300px;">
     <legend>Kontaktformulär</legend>
 
   
-    <label id="select"> Välj till ärende</label> <br />
+    <label id="select"> Välj ärende</label> <br />
 
-    <select name="ärende" id="arende">
+    
     <option> Välj här </option>
-    <option value="fåga"> Fråga </option>
+    <option value="fråga"> Fråga </option>
     <option value="tips"> Tips </option>
     <option value="gnäll"> Gnäll </option>
     <option value="komplimang"> Komplimang </option>
     </select>
 
     <br />
-    <input name="ärendetyp" type="radio" id="mail" value="mail" checked="checked" />
+    <input name="kontaktform" type="radio" id="mail" value="mail" checked="checked" />
     <label for="mail">Mail</label>
     <input name="ärendetyp" type="radio" id="telefon" value="telefon" checked="checked" />
     <label for="telefon">Telefon</label>
