@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+<meta charset="utf-8"/> 
+
+    
+
+
+<head>
+    <title>Johan Jaenssons Sida</title>
+</head>
+
+
+
+<body>
+
+
+    <h1>Välkommen till min kontaktsida!</h1>
+
+    
+    <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="laborationer.html">Laborationer</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+        <li><a href="resultat.html">Resultat</a></li>
+        
+        
+    </ul>
+    
+    <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"> 
+    <fieldset style="width: 300px;">
+    <legend>Konatkformulär</legend>
+
+    <label for="select"><br />
+    Välj ditt ärende här:</label><br />
+
+    <select name="ärende" id="arende">
+    <option> Välj här </option>
+    <option value="fåga"> Fråga </option>
+    <option value="tips"> Tips </option>
+    <option value="gnäll"> Gnäll </option>
+    <option value="komplimang"> Komplimang </option>
+    </select>
+
+    <br />
+    <input name="ärendetyp" type="radio" id="mail" value="mail" checked="unchecked" />
+    <label for="mail">Mail</label>
+    <input name="ärendetyp" type="radio" id="telefon" value="telefon" checked="checked" />
+    <label for="telefon">Telefon</label>
+    <br />
+    
+    Förnamn:<br />
+    <input type="text" name="förnamn" id="förnamn" /> <br />
+
+    Efternamn:<br />
+    <input type="text" name="efternamn" id="efternamn" /> <br />
+
+    E-postadress:<br />
+    <input type="text" name="epost" id="epost" /> <br />
+
+    Meddelande:<br />
+    <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br />
+
+    <input type="submit"/>
+    
+    </form>
+    </fieldset>
+</body>
+</html>
