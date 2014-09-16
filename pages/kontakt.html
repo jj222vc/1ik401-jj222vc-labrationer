@@ -6,7 +6,7 @@
 
 
 <head>
-    <title>Johan Jaenssons Sida</title>
+    <title>Johan Jaenssons kontaktsida</title>
 </head>
 
 
@@ -30,8 +30,8 @@
     <fieldset style="width: 300px;">
     <legend>Kontaktformulär</legend>
 
-    <label for="select"><br />
-    Välj ditt ärende här:</label><br />
+  
+    <label id="select"> Välj till ärende</label> <br />
 
     <select name="ärende" id="arende">
     <option> Välj här </option>
@@ -42,7 +42,7 @@
     </select>
 
     <br />
-    <input name="ärendetyp" type="radio" id="mail" value="mail" checked="unchecked" />
+    <input name="ärendetyp" type="radio" id="mail" value="mail" checked="checked" />
     <label for="mail">Mail</label>
     <input name="ärendetyp" type="radio" id="telefon" value="telefon" checked="checked" />
     <label for="telefon">Telefon</label>
@@ -60,9 +60,10 @@
     Meddelande:<br />
     <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br />
 
-    <input type="submit"/>
+    <input type="submit"/> <br />
     
-    </form>
+    
     </fieldset>
+    </form>
 </body>
 </html>
