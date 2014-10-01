@@ -4,24 +4,33 @@
 <head>
     <title>Johan Jaenssons kontaktsida</title>
     <meta charset="utf-8"/> 
+    <link href="/pages/css/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 
 
 <body>
-
+<div id="container">
+     <div id="header">
+         
+    
+       </div>
 
     <h1>Välkommen till min kontaktsida!</h1>
 
+    <div id="menu">
     
+    </div>
     <ul>
         <li><a href="index.html">Start</a></li>
         <li><a href="laborationer.html">Laborationer</a></li>
         <li><a href="kontakt.html">kontakt</a></li>
         <li><a href="resultat.html">Resultat</a></li>
+        
+        
     </ul>
-    
-    <!-- Formuläret börjar, methoden post väljs !-->
+    <div id="table">
+    <!-- Formuläret börjar, methoden action välj !-->
     <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"> 
     <fieldset style="width: 300px;">
     <legend>Kontaktformulär</legend>
@@ -38,9 +47,9 @@
     </select>
 
     <br />
-    <input name="kontaktform" type="radio" id="mail" value="mail" checked="checked" />
+    <input name="kontaktform" type="radio" id="mail" value="mail" checked="false" />
     <label for="mail">Mail</label>
-    <input name="ärendetyp" type="radio" id="telefon" value="telefon" checked="checked" />
+    <input name="ärendetyp" type="radio" id="telefon" value="telefon"checked="false" /> 
     <label for="telefon">Telefon</label>
     <br />
     
@@ -61,5 +70,11 @@
     
     </fieldset>
     </form>
+    </div>
+    
+    <div id ="footer">
+    
+</div>
+</div>
 </body>
 </html>
