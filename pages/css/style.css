@@ -1,31 +1,31 @@
 body{
-    width:1024;
-    height:780px;
+    
     text-align:center;
     margin-left: auto;
     margin-right: auto;
-    background-image:url(background.png);
-    background-size:70%;
+
     
 }
 #container{
     
     width:800px;
-    height:768px;
+    height:760px;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
-    background-size:100%;
+
 
 }
 #logo{
+    background-image:url(css/pics/header.gif);
+    overflow:hidden;
     width:450px;
     height:50px;
+    border-style:solid;
+    border-width:0px;
     float:left;
-    background-color:#6600FF;
-   text-align:center;
-    margin-left: auto;
-    margin-right: auto;
+   
+   
 }
 #nav{
     width:350px;
@@ -44,20 +44,22 @@ body{
     
     margin-top:0px;
     width:800px;
-    height:auto;
+    height:400px;
     background-color:#fff;
     border-style:solid;
-    border-width:2px;
+    border-width:1px;
     float:left;
     
 }
 h1{
     text-align:center;
     font-family: "Times New Roman", Times, serif;
+    font-size:25px;
 }
 p{
     font-family: "Times New Roman", Times, serif;
     text-align:center;
+    font-size:15px;
 }
 #posts{
     width:150px;
@@ -65,7 +67,7 @@ p{
     float:right;
     background-color:#26657F;
     border-style:solid;
-     border-width:2px;
+    border-width:2px;
     margin-top:2px;
     margin-right:2px;
 }
@@ -92,8 +94,7 @@ p{
 #box4{
     width:620px;
     height:auto;
-    border-bottom-style:solid;
-     border-width:2px;
+    
 }
 ul {
   padding-left:50px;  
@@ -141,11 +142,72 @@ ul li ul li {
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
+
+a:link {
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+}
+#content2{
+    
+    margin-top:0px;
+    width:800px;
+    height:500px;
+    border-style:solid;
+    border-width:1px;
+    
+    
+    
+}
 #table{
+    
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto
+    
+
+    
+    
+}
+#content3{
+    
+    margin-top:0px;
+    width:800px;
+    height:500px;
+    border-style:solid;
+    border-width:1px;
+    
+    
+}
+#content4{
+    
+    margin-top:0px;
+    width:800px;
+    height:900px;
+    border-style:solid;
+    border-width:1px;
+    
+    
+}
+#content5{
+    
+    margin-top:0px;
+    width:800px;
+    height:500px;
+    border-style:solid;
+    border-width:1px;
+    
+    
+}
+#results{
     text-align:center;
     margin-left: auto;
     margin-right: auto;
-    
-    background-size:70%;
-    
+}
+
+#form{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
 }
