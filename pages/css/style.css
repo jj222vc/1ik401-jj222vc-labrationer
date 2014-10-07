@@ -21,8 +21,6 @@ body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
     overflow:hidden;
     width:450px;
     height:50px;
-    border-style:solid;
-    border-width:0px;
     float:left;
    
    
@@ -41,7 +39,7 @@ body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
  
 }
 
-#content{ 
+#content{ /*content på index.html*/
     
     margin-top:0px;
     width:800px;
@@ -52,21 +50,37 @@ body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
     float:left;
     
 }
+.img1{
+vertical-align:top;
+width:50px;
+height:50px;
+}
+.img2{
+  position:fixed;
+  right:60px;
+  
+  
+
+  
+}
 h1{
     text-align:center;
     font-family: "Times New Roman", Times, serif;
     font-size:20px;
+    margin-left:10px;
 }
-p{
+p{ /*styr <p> för hela sidan*/
     font-family: "Times New Roman", Times, serif;
     text-align:center;
     font-size:15px;
+    margin-left:10px;
 }
-
+/*styr header2*/
 h2{
-    text-align:left;
+    
     font-family: "Times New Roman", Times, serif;
     font-size:20px;
+    margin-left:35px;
 }
 #posts{ /*Blogginlägg i lista  */
     width:150px;
@@ -78,28 +92,30 @@ h2{
     margin-top:2px;
     margin-right:2px;
 }
-#box1{ /*Styr första bloggposten*/
-    width:620px;
-    height:auto;
-    border-bottom-style:solid;
-     border-width:2px;
-    
-    
-}
-#box2{ /*Styr första bloggposten*/
+#box1{ /*Skapar en ny box för varje post*/
     width:620px;
     height:auto;
     border-bottom-style:solid;
     border-width:2px;
     
+    
 }
-#box3{ /*Styr första bloggposten*/
+#box2 { 
+    width:620px;
+    height:auto;
+    border-bottom-style:solid;
+    border-width:2px;
+    text-align:left;
+    
+}
+
+#box3{ 
     width:620px;
     height:auto;
     border-bottom-style:solid;
      border-width:2px;
 }
-#box4{ /*Styr foggposten*/
+#box4{ 
     width:620px;
     height:auto;
     
@@ -107,7 +123,7 @@ h2{
 ul {
   padding-left:50px;  
   Display: inline;
-  padding: 15px 7px 19px 0;
+  padding: 15px 6px 20px 0;
   list-style: none;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); 
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -118,7 +134,7 @@ ul li { /*Styr <li> taggen  */
   display: inline-block;
   margin-right: -4px;
   position: relative;
-  padding: 15px 20px;
+  padding: 16px 20px;
   background: #3DA1CC;
   cursor: pointer;
   -webkit-transition: all 0.2s;
@@ -131,69 +147,53 @@ ul li:hover { /*Styr färgen när man hoovrar */
   background: #555;
   color: #fff;
 }
-ul li ul { /*Ifall jag vill ha undermenyer senare*/
-  padding: 0;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 150px;
-  
-  box-shadow: none;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  
-}
+
 
 
 /*Färg på länkar  */
 a:link {
     color: #000000;
 }
+/*Färg på besökta länkar  */
 a:visited {
     color: #000000;
 }
 #content2{  /*Styr all content i kontakt.html  */
 
-    width:800px;
-    height:410px;
+    
     border-style:solid;
     border-width:1px;
     margin-top:auto;
     margin-left:auto;
     margin-right:auto;
-    
-    
-}
-#table{
-    
-    text-align:center;
-    margin-top:auto;
-    margin-left:auto;
-    margin-right:auto;
+    width:800px;
+    height:610px;
     background-color:#fff;
     
 }
 
-#content3 {
+#content3 { /*styr conetent i presentation.html*/
     background-color:#fff;
     margin-top:auto;
     margin-left:auto;
     margin-right:auto;
     width:800px;
-    height:500px;
+    height:400px;
     border-style:solid;
     border-width:1px;
+    
     
     
 }
 #content4{   /*Styr all content i laborationer.html  */
     background-color:#fff;
-
     width:800px;
-    height:700px;
+    height:650px;
     border-style:solid;
     border-width:1px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
     
     
 }
@@ -201,7 +201,7 @@ a:visited {
     background-color:#fff;
 
     width:800px;
-    height:500px;
+    height:700px;
     border-style:solid;
     border-width:1px;
     margin-top:auto;
@@ -210,16 +210,21 @@ a:visited {
     
     
 }
-#results{
+#results{ /*styr table i resultat.html*/
     text-align:center;
-     margin-top:auto;
+    margin-top:auto;
     margin-left:auto;
     margin-right:auto;
+    width:300px;
+    height:580px;
 }
 
-#form{
+#form{ /*styr forumläret i kontakt.html*/
     text-align:center;
     margin-left: auto;
     margin-right: auto;
     background-color:#fff;
+    width:380px;
+    height:410px;
+    margin-top:90px;
 }
