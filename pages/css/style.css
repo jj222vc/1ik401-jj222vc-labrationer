@@ -1,3 +1,15 @@
+/*Färger som används 
+ background-color:#B8B8B (body)
+     background-color:#fff; (content)
+     background-color:#26657F; (för div-taggen #post)
+     background: #3DA1CC; (färgen på menyn <li>)
+     background: #555; (färgen när man hoovrar över menyn)
+     color: #000000; (färgen på länkar samt besökta länkar)
+     
+*/
+
+
+
 body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
 
     margin-left: auto;
@@ -113,32 +125,27 @@ h2{
     
 }/*Min meny  */
 ul {
-  padding-left:50px;  
-  Display: inline;
-  padding: 15px 6px 20px 0;
-  list-style: none;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); 
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  list-style-type: none;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
 }
-ul li { /*Styr <li> taggen  */
-  font: bold 12px/18px sans-serif;
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  padding: 16px 20px;
+ul li {
+  float: left;
+  
+  border-bottom: none;
   background: #3DA1CC;
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
 }
-ul li:hover { /*Styr färgen när man hoovrar */
+
+ul li a:hover {
   background: #555;
-  color: #fff;
 }
+ul li a {
+  display:inline-block;
+  padding: 16px 17px;
+  text-decoration: none;
+}
+
 
 
 
@@ -180,12 +187,13 @@ a:visited {
 #content4{   /*Styr all content i laborationer.html  */
     background-color:#fff;
     width:800px;
-    height:650px;
+    height:680px;
     border-style:solid;
     border-width:1px;
     margin-top:auto;
     margin-left:auto;
     margin-right:auto;
+    text-align:left;
     
     
 }
