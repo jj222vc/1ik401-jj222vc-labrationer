@@ -1,9 +1,8 @@
-body{ /*Body taggen styr hela sidans position samt bakgrundsbilden  */
-    
-  
+body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
+
     margin-left: auto;
     margin-right: auto;
-    background-image:url(css/pics/back.png);
+    background-color:#B8B8B8 ;
     
 }
 #container{ /*Container för innehållet på sidan  */
@@ -42,7 +41,7 @@ body{ /*Body taggen styr hela sidans position samt bakgrundsbilden  */
  
 }
 
-#content{
+#content{ 
     
     margin-top:0px;
     width:800px;
@@ -79,7 +78,7 @@ h2{
     margin-top:2px;
     margin-right:2px;
 }
-#box1{
+#box1{ /*Styr första bloggposten*/
     width:620px;
     height:auto;
     border-bottom-style:solid;
@@ -87,20 +86,20 @@ h2{
     
     
 }
-#box2{
+#box2{ /*Styr första bloggposten*/
     width:620px;
     height:auto;
     border-bottom-style:solid;
     border-width:2px;
     
 }
-#box3{
+#box3{ /*Styr första bloggposten*/
     width:620px;
     height:auto;
     border-bottom-style:solid;
      border-width:2px;
 }
-#box4{
+#box4{ /*Styr foggposten*/
     width:620px;
     height:auto;
     
@@ -154,30 +153,33 @@ a:link {
 a:visited {
     color: #000000;
 }
-#content2{
-    
-    margin-top:0px;
+#content2{  /*Styr all content i kontakt.html  */
+
     width:800px;
     height:410px;
     border-style:solid;
     border-width:1px;
-    
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
     
     
 }
 #table{
     
     text-align:center;
-    margin-left: auto;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
     background-color:#fff;
     
-
-    
-    
 }
+
 #content3 {
     background-color:#fff;
-    margin-top:0px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
     width:800px;
     height:500px;
     border-style:solid;
@@ -185,30 +187,34 @@ a:visited {
     
     
 }
-#content4{              /*Styr laborationer.html  */
+#content4{   /*Styr all content i laborationer.html  */
     background-color:#fff;
-    margin-top:0px;
+
     width:800px;
-    height:900px;
+    height:700px;
     border-style:solid;
     border-width:1px;
     
     
 }
-#content5{
+#content5{ /*Styr content i resultat.html  */
     background-color:#fff;
-    margin-top:0px;
+
     width:800px;
     height:500px;
     border-style:solid;
     border-width:1px;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
     
     
 }
 #results{
     text-align:center;
-    margin-left: auto;
-    margin-right: auto;
+     margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #form{
