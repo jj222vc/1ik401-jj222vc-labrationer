@@ -1,12 +1,12 @@
-body{
+body{ /*Body taggen styr hela sidans position samt bakgrundsbilden  */
     
-    text-align:center;
+  
     margin-left: auto;
     margin-right: auto;
-    background-image:url(pages/css/pics/back.png);
+    background-image:url(css/pics/back.png);
     
 }
-#container{
+#container{ /*Container för innehållet på sidan  */
     
     width:800px;
     height:760px;
@@ -17,7 +17,7 @@ body{
 
 
 }
-#logo{
+#logo{ /*Styr sidans logga samt storleken  */
     background-image:url(css/pics/header.gif);
     overflow:hidden;
     width:450px;
@@ -29,13 +29,13 @@ body{
    
 }
 
-#nav{
+#nav{ /*menyns storlek samt position  */
     width:350px;
     height:50px;
     float:right;
 
 }
-#header{
+#header{ /*Container för #logo och #nav */
     width:800px;
     height:50px;
     float:right;
@@ -56,14 +56,20 @@ body{
 h1{
     text-align:center;
     font-family: "Times New Roman", Times, serif;
-    font-size:25px;
+    font-size:20px;
 }
 p{
     font-family: "Times New Roman", Times, serif;
     text-align:center;
     font-size:15px;
 }
-#posts{
+
+h2{
+    text-align:left;
+    font-family: "Times New Roman", Times, serif;
+    font-size:20px;
+}
+#posts{ /*Blogginlägg i lista  */
     width:150px;
     height:200px;
     float:right;
@@ -85,7 +91,8 @@ p{
     width:620px;
     height:auto;
     border-bottom-style:solid;
-     border-width:2px;
+    border-width:2px;
+    
 }
 #box3{
     width:620px;
@@ -97,17 +104,17 @@ p{
     width:620px;
     height:auto;
     
-}
+}/*Min meny  */
 ul {
   padding-left:50px;  
   Display: inline;
-  padding: 15px 6px 17px 0;
+  padding: 15px 7px 19px 0;
   list-style: none;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); 
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-ul li {
+ul li { /*Styr <li> taggen  */
   font: bold 12px/18px sans-serif;
   display: inline-block;
   margin-right: -4px;
@@ -121,11 +128,11 @@ ul li {
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-ul li:hover {
+ul li:hover { /*Styr färgen när man hoovrar */
   background: #555;
   color: #fff;
 }
-ul li ul {
+ul li ul { /*Ifall jag vill ha undermenyer senare*/
   padding: 0;
   position: absolute;
   top: 48px;
@@ -138,13 +145,9 @@ ul li ul {
   visibility: hidden;
   
 }
-ul li ul li { 
-  background: #555; 
-  display: block; 
-  color: #fff;
-  text-shadow: 0 -1px 0 #000;
-}
 
+
+/*Färg på länkar  */
 a:link {
     color: #000000;
 }
@@ -155,7 +158,7 @@ a:visited {
     
     margin-top:0px;
     width:800px;
-    height:500px;
+    height:410px;
     border-style:solid;
     border-width:1px;
     
@@ -166,14 +169,14 @@ a:visited {
     
     text-align:center;
     margin-left: auto;
-    margin-right: auto
+    background-color:#fff;
     
 
     
     
 }
 #content3 {
-    
+    background-color:#fff;
     margin-top:0px;
     width:800px;
     height:500px;
@@ -182,8 +185,8 @@ a:visited {
     
     
 }
-#content4{
-    
+#content4{              /*Styr laborationer.html  */
+    background-color:#fff;
     margin-top:0px;
     width:800px;
     height:900px;
@@ -193,7 +196,7 @@ a:visited {
     
 }
 #content5{
-    
+    background-color:#fff;
     margin-top:0px;
     width:800px;
     height:500px;
@@ -212,4 +215,5 @@ a:visited {
     text-align:center;
     margin-left: auto;
     margin-right: auto;
+    background-color:#fff;
 }
