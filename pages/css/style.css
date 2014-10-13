@@ -3,12 +3,10 @@
      background-color:#fff; (content)
      background-color:#26657F; (för div-taggen #post)
      background: #3DA1CC; (färgen på menyn <li>)
-     background: #555; (färgen när man hoovrar över menyn)
+     background: #555; (färgen när man hovrar över menyn)
      color: #000000; (färgen på länkar samt besökta länkar)
      
 */
-
-
 
 body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
 
@@ -29,7 +27,7 @@ body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
 
 }
 #logo{ /*Styr sidans logga samt storleken  */
-    background-image:url(css/pics/header.gif);
+    background-image:url(pics/header.gif);
     overflow:hidden;
     width:450px;
     height:50px;
@@ -38,7 +36,7 @@ body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
    
 }
 
-#nav{ /*menyns storlek samt position  */
+#nav { /*menyns storlek samt position  */
     width:350px;
     height:50px;
     float:right;
@@ -60,13 +58,14 @@ body{ /*Body taggen styr hela sidans position samt bakgrundsfärgen  */
 float:left;
 width:40px;
 height:40px;
+margin-left:10px;
 }
 .img2{ /*styr bild 2 i bloggposten samt storlek*/
   float:right;
   width:200px;
   height:200px;
 
-}
+} /* styr h1*/
 h1{
     text-align:center;
     font-family: "Times New Roman", Times, serif;
@@ -74,21 +73,21 @@ h1{
     margin-left:10px;
 }
 p{ /*styr <p> för hela sidan*/
-    font-family: "Times New Roman", Times, serif;
+    font-family: "verdana", Times, serif;
     text-align:center;
-    font-size:15px;
+    font-size:14px;
     margin-left:10px;
 }
-/*styr header2*/
+/*styr h2*/
 h2{
     
-    font-family: "Times New Roman", Times, serif;
-    font-size:20px;
+    font-family: "verdana", Times, serif;
+    font-size:19px;
     margin-left:45px;
 }
 #posts{ /*Blogginlägg i lista  */
     width:150px;
-    height:200px;
+    height:204px;
     float:right;
     background-color:#26657F;
     border-style:solid;
@@ -126,23 +125,21 @@ h2{
 }/*Min meny  */
 ul {
   list-style-type: none;
-  overflow: auto;
   padding: 0;
   margin: 0;
 }
+/*lägger alla menyalternativ till vänster samt sätter en bakgrundsfärg*/
 ul li {
   float: left;
-  
-  border-bottom: none;
   background: #3DA1CC;
 }
-
+/* byter färg när man håller muspekaren över*/
 ul li a:hover {
   background: #555;
 }
 ul li a {
   display:inline-block;
-  padding: 16px 17px;
+  padding: 17px 17px;
   text-decoration: none;
 }
 
@@ -171,7 +168,7 @@ a:visited {
     
 }
 
-#content3 { /*styr conetent i presentation.html*/
+#content3 { /*styr all content i presentation.html*/
     background-color:#fff;
     margin-top:auto;
     margin-left:auto;
@@ -184,7 +181,7 @@ a:visited {
     
     
 }
-#content4{   /*Styr all content i laborationer.html  */
+#content4 {   /*Styr all content i laborationer.html  */
     background-color:#fff;
     width:800px;
     height:680px;
@@ -197,7 +194,7 @@ a:visited {
     
     
 }
-#content5{ /*Styr content i resultat.html  */
+#content5{ /*Styr all content i resultat.html  */
     background-color:#fff;
 
     width:800px;
@@ -227,4 +224,10 @@ a:visited {
     width:380px;
     height:410px;
     margin-top:90px;
+}
+#lank{
+    text-align:center;
+}
+h4{
+    text-align:center;
 }
